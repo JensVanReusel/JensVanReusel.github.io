@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>GIP static site</title>
+    <title>IT-Profile</title>
     <meta name="description" content="Dit is de website voor mijn GIP. Alle opdrachten zullen hier verzameld en gepubliceerd worden.
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://yourdomain.com/Opdrachten/Taak02.html">
+    <link rel="canonical" href="http://yourdomain.com/IT-Profile/">
 </head>
 
 
@@ -80,12 +80,186 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"></h1>
+    <h1 class="post-title">IT-Profile</h1>
   </header>
 
   <article class="post-content">
-    This is where my second GIP task will appear.
+    <!DOCTYPE html>
+<html>
 
+<head>
+  <style>
+		.meter { 
+			height: 10px;
+			position: relative;
+			margin: 20px 0 20px 0;
+			background: #999;
+			-moz-border-radius: 25px;
+			-webkit-border-radius: 25px;
+			border-radius: 25px;
+			padding: 1px;
+			-webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+			-moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+			box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+		}
+		.meter > span {
+			display: block;
+			height: 100%;
+			   -webkit-border-top-right-radius: 8px;
+			-webkit-border-bottom-right-radius: 8px;
+			       -moz-border-radius-topright: 8px;
+			    -moz-border-radius-bottomright: 8px;
+			           border-top-right-radius: 8px;
+			        border-bottom-right-radius: 8px;
+			    -webkit-border-top-left-radius: 20px;
+			 -webkit-border-bottom-left-radius: 20px;
+			        -moz-border-radius-topleft: 20px;
+			     -moz-border-radius-bottomleft: 20px;
+			            border-top-left-radius: 20px;
+			         border-bottom-left-radius: 20px;
+			background-color: rgb(43,194,83);
+			background-image: -webkit-gradient(
+			  linear,
+			  left bottom,
+			  left top,
+			  color-stop(0, rgb(43,194,83)),
+			  color-stop(1, rgb(84,240,84))
+			 );
+			background-image: -moz-linear-gradient(
+			  center bottom,
+			  rgb(43,194,83) 37%,
+			  rgb(84,240,84) 69%
+			 );
+			-webkit-box-shadow: 
+			  inset 0 2px 9px  rgba(255,255,255,0.3),
+			  inset 0 -2px 6px rgba(0,0,0,0.4);
+			-moz-box-shadow: 
+			  inset 0 2px 9px  rgba(255,255,255,0.3),
+			  inset 0 -2px 6px rgba(0,0,0,0.4);
+			box-shadow: 
+			  inset 0 2px 9px  rgba(255,255,255,0.3),
+			  inset 0 -2px 6px rgba(0,0,0,0.4);
+			position: relative;
+			overflow: hidden;
+		}
+		
+		.yellow > span {
+			background-color: #e3ff00;
+			background-image: -moz-linear-gradient(top, #e3ff00, #e3ff00);
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #e3ff00),color-stop(1, #e3ff00));
+			background-image: -webkit-linear-gradient(#e3ff00, #e3ff00);
+		}
+	</style>
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+</head>
+	
+<body>
+
+	<div id="progressbars">
+	
+		<div id="soft">
+		<h1>Software Ontwikkeling</h1>
+		</div>
+	
+		<div id="softBars" style="display: none;">
+		<h3>C#</h3>
+		<div class="meter yellow">
+			<span style="width: 60%"></span>
+		</div>
+		<h3>HTML + CSS</h3>
+		<div class="meter yellow">
+			<span style="width: 55%"></span>
+		</div>
+		<h3>javascript</h3>
+		<div class="meter yellow">
+			<span style="width: 45%"></span>
+		</div>
+		</div>
+		
+		<div id="sys">
+		<h1>Systeem en Netwerkbeheer</h1>
+		</div>
+		
+		<div id="sysBars" style="display: none;">
+		<h3>Netwerken</h3>
+		<div class="meter yellow">
+			<span style="width: 60%"></span>
+		</div>
+		<h3>Hardware</h3>
+		<div class="meter yellow">
+			<span style="width: 90%"></span>
+		</div>
+		<h3>Bestuuringssystemen</h3>
+		<div class="meter yellow">
+			<span style="width: 95%"></span>
+		</div>
+		</div>
+		
+		<div id="misc">
+		<h1>Overige Applicaties</h1>
+		</div>
+		
+		<div id="miscBars" style="display: none;">
+		<h3>Adobe PhotoShop</h3>
+		<div class="meter yellow">
+			<span style="width: 65%"></span>
+		</div>
+		<h3>Maxon Cinema 4D</h3>
+		<div class="meter yellow">
+			<span style="width: 75%"></span>
+		</div>
+		<h3>Algemene computerkennis</h3>
+		<div class="meter yellow">
+			<span style="width: 95%"></span>
+		</div>
+		</div>
+		
+			
+
+	</div>
+	
+	<script>
+		$(document).ready(function() 
+		{
+			$('#soft').mouseover(function() 
+			{
+				$('#softBars').fadeIn();
+			}),
+			$('#soft').mouseleave(function() 
+			{
+				$('#softBars').fadeOut();
+			});
+		});
+		
+		$(document).ready(function() 
+		{
+			$('#sys').mouseover(function() 
+			{
+				$('#sysBars').fadeIn();
+			}), 
+			$('#sys').mouseleave(function() 
+			{
+				$('#sysBars').fadeOut();
+			});
+		});
+		
+		$(document).ready(function() 
+		{
+			$('#misc').mouseover(function() 
+			{
+				$('#miscBars').fadeIn();
+			}), 
+			$('#misc').mouseleave(function() 
+			{
+				$('#miscBars').fadeOut();
+			});
+		});
+	</script>
+	
+</body>
+
+</html>
   </article>
 
 </div>

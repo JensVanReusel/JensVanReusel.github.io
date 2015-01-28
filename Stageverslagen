@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>GIP static site</title>
+    <title>Stageverslagen</title>
     <meta name="description" content="Dit is de website voor mijn GIP. Alle opdrachten zullen hier verzameld en gepubliceerd worden.
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://yourdomain.com/Opdrachten/Taak06.html">
+    <link rel="canonical" href="http://yourdomain.com/Stageverslagen">
 </head>
 
 
@@ -80,7 +80,7 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"></h1>
+    <h1 class="post-title">Stageverslagen</h1>
   </header>
 
   <article class="post-content">
@@ -95,47 +95,14 @@
 	</style>
 </head>
 
-<h2 id="taak06-websites-workflow">Taak06: Websites-workflow</h2>
+<h1 id="dag-1----subsup26012015supsub">DAG 1    <sub><sup>26/01/2015</sup></sub></h1>
+<p>Op de eerste dag van mijn stage heb ik eerst en vooral een rondleiding gekregen doorheen de kantoren en het fabriek. Er is mij daarna een project toegewezen om een ticket systeem te voorzien voor op de nieuwe afdeling: ‘Technology Innovation’. De eerste dag was zeker een goed begin aangezien iedereen die in de maanden Januari en Februari jarig zijn, vandaag trakteerden met taart en cake.</p>
 
-<h1 id="algemeen">Algemeen</h1>
+<h1 id="dag-2----subsup27012015supsub">DAG 2    <sub><sup>27/01/2015</sup></sub></h1>
+<p>Na heelveel uitleg te hebben gekregen ben ik begonnen met het aanmaken van files en query’s in de SQL database. Als deze klaar waren ben ik begonnen met het herschrijven van de classes in de backoffice van de webapplicatie.</p>
 
-<p>Voor deze opdracht was het de bedoeling dat wij een statische website maakten. Om deze niet van scratch te hoeven schrijven maakten we gebruik van een static-gen.
-Na lang zoeken op staticgen en enkele hebben uitgeprobeerd, besefte ik al snel dat deze opdracht toch niet zo simpel is als ik eerst dacht. Vele van de static-gens waaronder hexo, 
-octopress en pelican, werkten bij mij thuis helemaal niet of niet naar behoren.</p>
-
-<h1 id="installatie">Installatie</h1>
-
-<p>Om deze static-site te maken heb ik gebruik gemaakt van de populaire <code>jekyll</code>. Deze static-gen is geschreven in <em>ruby</em> 
-en maakt gebruik van <em>liquid</em> templates.</p>
-
-<p>Om <em>jekyll</em> te installeren heb je eerst deze dingen nodig:</p>
-
-<ul>
-  <li>Ruby</li>
-  <li>RubyGems</li>
-  <li>Ruby DevKit</li>
-</ul>
-
-<p>Als dit geïnstalleerd is kunnen we verder met <em>jekyll</em>. Open een <code>Administrator Command Prompt with Ruby</code> en voer de volgende commando&#8217;s uit.</p>
-
-<pre><code>gem install jekyll
-jekyll new projectname
-cd projectname
-jekyll serve
-</code></pre>
-
-<p>Als je nu naar <code>localhost:4000</code> gaat in je browser, zul je de eerste versie van je static-site zien.</p>
-
-<h1 id="configuratie">Configuratie</h1>
-
-<p>Eerst en vooral is het aangeraden om de <em>_config.yml</em> te bekijken, hierin kan je belangrijke zaken wijzigen zoals de titel van je site, de url &#8230;. en kan je verschillende instellingen toevoegen.</p>
-
-<h1 id="pages-toevoegen">Pages toevoegen</h1>
-
-<p>Om pages toe te voegen zijn er verschillende mogelijkheden. Ik heb telkens een .html file toegevoegd en daarin mijn taak in markdown verwerkt.
- Om deze markdown bestanden te renderen in een page moest ik eerst nog een plugin toevoegen. </p>
-
-
+<h1 id="dag-3----subsup28012015supsub">DAG 3    <sub><sup>28/01/2015</sup></sub></h1>
+<p>De uitleg vandaag was zelfs nog langer dan die van gisteren, tussendoor ben ik verder aan het programmeren geweest om toch zeker de classes klaar te hebben, wat dus ook ondertussen gelukt is. Tegen de laatste uurtjes van de dag begonnen aan de frontoffice waardoor ik tijdens mijn laatste werkuur de eerste keer de webapplicatie heb kunnen runnen en mijn eerste visuele resultaat heb gehad. Dit was een leuke ervaring, zeker als je er toch een aantal uren tijd in hebt  gestoken.</p>
 
   </article>
 
